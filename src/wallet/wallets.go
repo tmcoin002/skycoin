@@ -7,7 +7,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/skycoin/skycoin/src/cipher"
+	"github.com/tmcoin002/tmcoin/src/cipher"
 )
 
 type Wallets []Wallet

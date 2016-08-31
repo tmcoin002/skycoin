@@ -9,11 +9,11 @@ import (
 	"log"
 	"time"
 
-	"github.com/skycoin/skycoin/src/cipher/ripemd160"
+	"github.com/tmcoin002/tmcoin/src/cipher/ripemd160"
 
 	"gopkg.in/op/go-logging.v1"
 
-	"github.com/skycoin/skycoin/src/cipher/secp256k1-go"
+	"github.com/tmcoin002/tmcoin/src/cipher/secp256k1-go"
 )
 
 var (

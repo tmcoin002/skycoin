@@ -12,10 +12,10 @@ import (
 
 	"gopkg.in/op/go-logging.v1"
 
-	//"github.com/skycoin/skycoin/src/daemon/gnet"
-	"github.com/skycoin/skycoin/src/daemon/gnet"
-	"github.com/skycoin/skycoin/src/daemon/pex"
-	"github.com/skycoin/skycoin/src/util"
+	//"github.com/tmcoin002/tmcoin/src/daemon/gnet"
+	"github.com/tmcoin002/tmcoin/src/daemon/gnet"
+	"github.com/tmcoin002/tmcoin/src/daemon/pex"
+	"github.com/tmcoin002/tmcoin/src/util"
 )
 
 /*

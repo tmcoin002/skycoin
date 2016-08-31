@@ -11,7 +11,7 @@ import (
 
 import (
 	"crypto/rand"
-	"github.com/skycoin/skycoin/src/cipher"
+	"github.com/tmcoin002/tmcoin/src/cipher"
 )
 
 func randBytes(n int) []byte {

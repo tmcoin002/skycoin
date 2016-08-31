@@ -4,7 +4,7 @@ package gui
 import (
 	"net/http"
 
-	"github.com/skycoin/skycoin/src/daemon"
+	"github.com/tmcoin002/tmcoin/src/daemon"
 )
 
 func connectionHandler(gateway *daemon.Gateway) http.HandlerFunc {

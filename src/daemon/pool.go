@@ -4,9 +4,9 @@ import (
 	"log"
 	"time"
 
-	//"github.com/skycoin/skycoin/src/daemon/gnet"
-	"github.com/skycoin/skycoin/src/daemon/gnet"
-	"github.com/skycoin/skycoin/src/util"
+	//"github.com/tmcoin002/tmcoin/src/daemon/gnet"
+	"github.com/tmcoin002/tmcoin/src/daemon/gnet"
+	"github.com/tmcoin002/tmcoin/src/util"
 )
 
 type PoolConfig struct {

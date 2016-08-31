@@ -4,10 +4,10 @@ import (
 	"errors"
 	"io/ioutil"
 
-	"github.com/skycoin/skycoin/src/cipher"
-	"github.com/skycoin/skycoin/src/cipher/encoder"
-	"github.com/skycoin/skycoin/src/coin"
-	"github.com/skycoin/skycoin/src/util"
+	"github.com/tmcoin002/tmcoin/src/cipher"
+	"github.com/tmcoin002/tmcoin/src/cipher/encoder"
+	"github.com/tmcoin002/tmcoin/src/coin"
+	"github.com/tmcoin002/tmcoin/src/util"
 )
 
 type SignedBlock struct {

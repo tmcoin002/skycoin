@@ -7,9 +7,9 @@ import (
 	"log"
 	"sort"
 
-	"github.com/skycoin/skycoin/src/cipher"
-	"github.com/skycoin/skycoin/src/coin"
-	"github.com/skycoin/skycoin/src/wallet"
+	"github.com/tmcoin002/tmcoin/src/cipher"
+	"github.com/tmcoin002/tmcoin/src/coin"
+	"github.com/tmcoin002/tmcoin/src/wallet"
 )
 
 // Deprecate dependency on wallet

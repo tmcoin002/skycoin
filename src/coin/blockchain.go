@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/skycoin/skycoin/src/cipher"
-	"github.com/skycoin/skycoin/src/cipher/encoder"
+	"github.com/tmcoin002/tmcoin/src/cipher"
+	"github.com/tmcoin002/tmcoin/src/cipher/encoder"
 	"gopkg.in/op/go-logging.v1"
 
 	//"time"

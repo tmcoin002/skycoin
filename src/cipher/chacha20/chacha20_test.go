@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/skycoin/skycoin/src/cipher/chacha20"
+	"github.com/tmcoin002/tmcoin/src/cipher/chacha20"
 )
 
 // stolen from https://tools.ietf.org/html/draft-strombergson-chacha-test-vectors-01

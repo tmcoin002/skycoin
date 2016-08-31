@@ -78,7 +78,7 @@ go get ./cmd/skycoin
 
 To update dependencies
 ```
-glock save github.com/skycoin/skycoin/cmd/skycoin
+glock save github.com/tmcoin002/tmcoin/cmd/skycoin
 ```
 
 Running A Skycoin Node

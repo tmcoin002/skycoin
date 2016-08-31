@@ -10,7 +10,7 @@ import (
 	"reflect"
 	"time"
 
-	"github.com/skycoin/skycoin/src/cipher/encoder"
+	"github.com/tmcoin002/tmcoin/src/cipher/encoder"
 	"gopkg.in/op/go-logging.v1"
 )
 

@@ -3,7 +3,7 @@ package wallet
 import (
 	"log"
 
-	"github.com/skycoin/skycoin/src/coin"
+	"github.com/tmcoin002/tmcoin/src/coin"
 )
 
 /*

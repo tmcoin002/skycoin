@@ -6,7 +6,7 @@ import (
 	"crypto/rc4"
 	"testing"
 
-	"github.com/skycoin/skycoin/src/cipher/chacha20"
+	"github.com/tmcoin002/tmcoin/src/cipher/chacha20"
 )
 
 const benchSize = 1024 * 1024

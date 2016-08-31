@@ -5,7 +5,7 @@ import (
 	"errors"
 	"log"
 
-	"github.com/skycoin/skycoin/src/cipher/base58"
+	"github.com/tmcoin002/tmcoin/src/cipher/base58"
 )
 
 /*

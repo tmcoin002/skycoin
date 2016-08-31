@@ -4,8 +4,8 @@ import (
 	"testing"
 	"time"
 
-	//"github.com/skycoin/skycoin/src/daemon/gnet"
-	"github.com/skycoin/skycoin/src/daemon/gnet"
+	//"github.com/tmcoin002/tmcoin/src/daemon/gnet"
+	"github.com/tmcoin002/tmcoin/src/daemon/gnet"
 	"github.com/stretchr/testify/assert"
 )
 

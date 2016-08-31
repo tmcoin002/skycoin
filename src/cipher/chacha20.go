@@ -3,7 +3,7 @@ package cipher
 import (
 	"errors"
 
-	"github.com/skycoin/skycoin/src/cipher/chacha20"
+	"github.com/tmcoin002/tmcoin/src/cipher/chacha20"
 )
 
 func Chacha20Encrypt(data []byte, key []byte, nonce []byte) (d []byte, err error) {

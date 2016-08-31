@@ -5,9 +5,9 @@ import (
 	"strings"
 	"testing"
 
-	//"github.com/skycoin/skycoin/src/daemon/gnet"
-	"github.com/skycoin/skycoin/src/daemon/gnet"
-	"github.com/skycoin/skycoin/src/daemon/pex"
+	//"github.com/tmcoin002/tmcoin/src/daemon/gnet"
+	"github.com/tmcoin002/tmcoin/src/daemon/gnet"
+	"github.com/tmcoin002/tmcoin/src/daemon/pex"
 	"github.com/stretchr/testify/assert"
 )
 

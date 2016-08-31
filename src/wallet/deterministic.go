@@ -6,8 +6,8 @@ import (
 	"log"
 	"path/filepath"
 
-	"github.com/skycoin/skycoin/src/cipher"
-	"github.com/skycoin/skycoin/src/cipher/secp256k1-go"
+	"github.com/tmcoin002/tmcoin/src/cipher"
+	"github.com/tmcoin002/tmcoin/src/cipher/secp256k1-go"
 )
 
 //Filename

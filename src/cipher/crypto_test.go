@@ -6,7 +6,7 @@ import (
 	"encoding/hex"
 	"testing"
 
-	"github.com/skycoin/skycoin/src/cipher/ripemd160"
+	"github.com/tmcoin002/tmcoin/src/cipher/ripemd160"
 	"github.com/stretchr/testify/assert"
 )
 

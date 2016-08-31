@@ -5,7 +5,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/skycoin/skycoin/src/wallet"
+	"github.com/tmcoin002/tmcoin/src/wallet"
 	"github.com/stretchr/testify/assert"
 )
 

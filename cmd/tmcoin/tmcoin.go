@@ -13,50 +13,47 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/skycoin/skycoin/src/cipher"
-	"github.com/skycoin/skycoin/src/coin"
-	"github.com/skycoin/skycoin/src/daemon"
-	"github.com/skycoin/skycoin/src/gui"
-	"github.com/skycoin/skycoin/src/util"
+	"github.com/tmcoin002/tmcoin/src/cipher"
+	"github.com/tmcoin002/tmcoin/src/coin"
+	"github.com/tmcoin002/tmcoin/src/daemon"
+	"github.com/tmcoin002/tmcoin/src/gui"
+	"github.com/tmcoin002/tmcoin/src/util"
 	"gopkg.in/op/go-logging.v1"
 )
 
-//"github.com/skycoin/skycoin/src/cli"
+//"github.com/tmcoin002/tmcoin/src/cli"
 
-//"github.com/skycoin/skycoin/src/wallet"
+//"github.com/tmcoin002/tmcoin/src/wallet"
 
 var (
-	logger     = logging.MustGetLogger("skycoin.main")
+	logger     = logging.MustGetLogger("tmcoin.main")
 	logFormat  = "[%{module}:%{level}] %{message}"
 	logModules = []string{
-		"skycoin.main",
-		"skycoin.daemon",
-		"skycoin.coin",
-		"skycoin.gui",
-		"skycoin.util",
-		"skycoin.visor",
-		"skycoin.wallet",
+		"tmcoin.main",
+		"tmcoin.daemon",
+		"tmcoin.coin",
+		"tmcoin.gui",
+		"tmcoin.util",
+		"tmcoin.visor",
+		"tmcoin.wallet",
 		"gnet",
 		"pex",
 	}
 
 	//TODO: Move time and other genesis block settigns from visor, to here
-	GenesisSignatureStr = "eb10468d10054d15f2b6f8946cd46797779aa20a7617ceb4be884189f219bc9a164e56a5b9f7bec392a804ff3740210348d73db77a37adb542a8e08d429ac92700"
-	GenesisAddressStr   = "2jBbGxZRGoQG1mqhPBnXnLTxK6oxsTf8os6"
-	BlockchainPubkeyStr = "0328c576d3f420e7682058a981173a4b374c7cc5ff55bf394d3cf57059bbe6456a"
+	GenesisSignatureStr = "154e00f746f296c51d8e4b9975a31a9a5ff8691396430c8171a4bed5f69785915d5925f997462f946302fde1a7341fd4711207e324f9dca31e22ab25575a26d501"
+	GenesisAddressStr   = "2Wo8dD7EkQi1BQscFNKiPfTffiXfxtgK8VY"
+	BlockchainPubkeyStr = "036d1f2bd7da97ce04a1414876b7ab39d817b8ac7c70466aaebe7ffe9a4a375149"
 	BlockchainSeckeyStr = ""
 
-	GenesisTimestamp  uint64 = 1426562704
-	GenesisCoinVolume uint64 = 100e12
+	GenesisTimestamp  uint64 = 0
+	GenesisCoinVolume uint64 = 600e12
 
 	//GenesisTimestamp: 1426562704,
 	//GenesisCoinVolume: 100e12, //100e6 * 10e6
 
 	DefaultConnections = []string{
-		"13.76.90.237:6000",
-		"40.74.142.139:6000",
-		"188.226.245.87:6000",
-		"40.74.80.119:6000",
+		"127.0.0.1:6000",
 	}
 )
 
@@ -373,7 +370,7 @@ var devConfig Config = Config{
 	PrintWebInterfaceAddress: false,
 	LaunchBrowser:            true,
 	// Data directory holds app data -- defaults to ~/.skycoin
-	DataDirectory: ".skycoin",
+	DataDirectory: ".tmcoin",
 	// Web GUI static resources
 	GUIDirectory: "./src/gui/static/",
 	// Logging

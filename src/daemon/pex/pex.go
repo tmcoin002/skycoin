@@ -14,7 +14,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/skycoin/skycoin/src/util"
+	"github.com/tmcoin002/tmcoin/src/util"
 	"gopkg.in/op/go-logging.v1"
 )
 

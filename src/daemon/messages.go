@@ -7,10 +7,10 @@ import (
 	"math/rand"
 	"net"
 
-	//"github.com/skycoin/skycoin/src/daemon/gnet"
-	"github.com/skycoin/skycoin/src/daemon/gnet"
-	"github.com/skycoin/skycoin/src/daemon/pex"
-	"github.com/skycoin/skycoin/src/util"
+	//"github.com/tmcoin002/tmcoin/src/daemon/gnet"
+	"github.com/tmcoin002/tmcoin/src/daemon/gnet"
+	"github.com/tmcoin002/tmcoin/src/daemon/pex"
+	"github.com/tmcoin002/tmcoin/src/util"
 )
 
 // Message represent a packet to be serialized over the network by

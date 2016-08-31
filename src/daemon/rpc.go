@@ -1,9 +1,9 @@
 package daemon
 
 import (
-	"github.com/skycoin/skycoin/src/cipher"
-	//"github.com/skycoin/skycoin/src/visor"
-	//"github.com/skycoin/skycoin/src/wallet"
+	"github.com/tmcoin002/tmcoin/src/cipher"
+	//"github.com/tmcoin002/tmcoin/src/visor"
+	//"github.com/tmcoin002/tmcoin/src/wallet"
 )
 
 // A connection's state within the daemon

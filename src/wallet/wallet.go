@@ -8,7 +8,7 @@ import (
 
 	"encoding/hex"
 
-	"github.com/skycoin/skycoin/src/cipher"
+	"github.com/tmcoin002/tmcoin/src/cipher"
 	//"math/rand"
 )
 

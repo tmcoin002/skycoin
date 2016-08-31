@@ -11,13 +11,13 @@ import (
 	"time"
 
 	"github.com/nictuku/dht"
-	//"github.com/skycoin/skycoin/src/daemon/gnet"
-	"github.com/skycoin/skycoin/src/daemon/gnet"
+	//"github.com/tmcoin002/tmcoin/src/daemon/gnet"
+	"github.com/tmcoin002/tmcoin/src/daemon/gnet"
 
-	"github.com/skycoin/skycoin/src/daemon/pex"
-	//"github.com/skycoin/skycoin/src/coin"
-	"github.com/skycoin/skycoin/src/util"
-	//"github.com/skycoin/skycoin/src/wallet"
+	"github.com/tmcoin002/tmcoin/src/daemon/pex"
+	//"github.com/tmcoin002/tmcoin/src/coin"
+	"github.com/tmcoin002/tmcoin/src/util"
+	//"github.com/tmcoin002/tmcoin/src/wallet"
 	"github.com/stretchr/testify/assert"
 )
 

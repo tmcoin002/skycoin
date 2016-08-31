@@ -5,7 +5,7 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/skycoin/skycoin/src/cipher"
+	"github.com/tmcoin002/tmcoin/src/cipher"
 )
 
 func TestAddress1(t *testing.T) {

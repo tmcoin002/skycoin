@@ -4,7 +4,7 @@ import (
 	"errors"
 	"log"
 
-	"github.com/skycoin/skycoin/src/cipher"
+	"github.com/tmcoin002/tmcoin/src/cipher"
 )
 
 //should just be array
